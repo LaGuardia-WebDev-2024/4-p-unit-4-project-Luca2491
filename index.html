@@ -1,30 +1,102 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
-[  ] font-size OR font-style 
-[  ] Five CSS Rules
-[  ] Three Images
+[ x ] Google Font OR Uploaded Font
+[ x ] font-size OR font-style 
+[ x ] Five CSS Rules
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Static Background Image
+[ yes ] Feature 1 - Include a Static Background Image
 [ no ] Feature 2 - Use a unique border-radius
-[ no ] Feature 3 - Use width and margin CSS Properties
+[ yes ] Feature 3 - Use width and margin CSS Properties
 [ no ] Feature 4 - Include at least one more additional HTML page
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 4 Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <style>
+      .big {
+       font-size: 45px;
+      }
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+      .font {
+        font-family: fantasy;
+      }
 
-  </style>
-</head>
-<body>
+      .small {
+        font-size: 30px;
+        color: darkblue;
+        font-family: "Rouge Script", cursive;
+      }
 
- 
+      body {
+        background-image: url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=pexels-pixabay-53594.jpg&fm=jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 30%;
+        margin: auto;
+      }
+      
+      .font2 {
+        color: grey;
+      }
+      
+      .title {
+        background-color: yellow;
+      }
+      
+      .gap1 {
+        margin-bottom: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    
+<img src="https://cdn.pixabay.com/photo/2014/12/02/08/09/info-553638_960_720.jpg" width="200">
+    <p>
+      A <strong class="title">cloud</strong> weighs around a <strong class="big">MILLION</strong> tonnes.<br />
+      <em class="small"
+        >Even though a cloud weighs tons, it doesn't fall on you because the
+        rising air responsible for its formation keeps the cloud floating in the
+        air. The air below the cloud is denser than the cloud, thus the cloud
+        floats on top of the denser air nearer the land surface.</em
+      >
+    </p>
+    <p>
+      Giraffes are <strong class="big">30</strong> times more likely to get hit
+      by <em class="font">lightning</em> than people
+    </p>
 
-</body>
+    <img
+    src="https://www.thesafaricollection.com/wp-content/uploads/2022/07/The-Safari-Collection-Hey-You-Giraffe-Manor-1.jpg"
+    width="200">
+    <p class="gap1">
+    <strong class="big">Identical twins</strong> <em class="font2">don't</em> have the same <em class="font">fingerprints</em>.
+    </p>
+    
+    <p class="gap1">
+      Earth’s rotation is changing speed.  the length of a day increases by around 1.8 seconds per century. <strong class="big">600 million years ago a day lasted just <em class="small">21</em> hours.</strong><br>
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqT7zuJrRx7Z5RWEKLpitO9__vTzIFgyzzmg&s"><br>
+      
+      <em>The fear of long words is called <strong class="small" >Hippopotomonstrosesquippedaliophobia</strong>.</em>
+    </p>
+    
+    <p class="gap1">
+      <strong class="title">source:</strong>https://www.sciencefocus.com/science/fun-facts
+    </p>
+    
+    <p>
+      oldest dog lived to <strong class="big">29.5</strong> years<br>
+      oldest cat lived to <strong class="big">38</strong> years
+    </p>
+
+  </body>
 </html>
